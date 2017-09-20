@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectContainer passes state value to select 1`] = `
+<Component
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "San Francisco",
+        "value": "sf",
+      },
+      Object {
+        "label": "Los Angeles",
+        "value": "la",
+      },
+      Object {
+        "label": "New York City",
+        "value": "ny",
+      },
+    ]
+  }
+  value={
+    Array [
+      "sf",
+      "ny",
+    ]
+  }
+/>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectContainer renders according to state matches snapshot with new state 1`] = `
+<Component
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "San Francisco",
+        "value": "sf",
+      },
+      Object {
+        "label": "Los Angeles",
+        "value": "la",
+      },
+      Object {
+        "label": "New York City",
+        "value": "ny",
+      },
+    ]
+  }
+  value={
+    Array [
+      "ph",
+    ]
+  }
+/>
+`;
+
+exports[`SelectContainer should match snapshot 1`] = `
+<ul>
+  <li
+    onClick={[Function]}
+  >
+    All
+  </li>
+  <li
+    onClick={[Function]}
+  >
+    San Francisco
+     - SELECTED!
+  </li>
+  <li
+    onClick={[Function]}
+  >
+    Los Angeles
+  </li>
+  <li
+    onClick={[Function]}
+  >
+    New York City
+  </li>
+</ul>
+`;
+
+exports[`SelectContainer should match snapshot shallowly 1`] = `
+<Unknown
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "San Francisco",
+        "value": "sf",
+      },
+      Object {
+        "label": "Los Angeles",
+        "value": "la",
+      },
+      Object {
+        "label": "New York City",
+        "value": "ny",
+      },
+    ]
+  }
+  value={
+    Array [
+      "sf",
+    ]
+  }
+/>
+`;

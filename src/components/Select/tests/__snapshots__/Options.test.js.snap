@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options matches snapshot 1`] = `
+<ul>
+  <li
+    onClick={[Function]}
+  >
+    San Francisco
+    <span />
+  </li>
+  <li
+    onClick={[Function]}
+  >
+    New York City
+    <span />
+  </li>
+</ul>
+`;
+
+exports[`Options matches snapshot with selected value 1`] = `
+<ul>
+  <li
+    onClick={[Function]}
+  >
+    San Francisco
+    <span>
+       - SELECTED!
+    </span>
+  </li>
+  <li
+    onClick={[Function]}
+  >
+    New York City
+    <span />
+  </li>
+</ul>
+`;

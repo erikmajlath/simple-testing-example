@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Films should match snapshot 1`] = `
+<Films>
+  <ul>
+    <styled.li>
+      <li
+        className="sc-bdVaJa bPamRI"
+      >
+        one
+      </li>
+    </styled.li>
+    <styled.li>
+      <li
+        className="sc-bdVaJa bPamRI"
+      >
+        two
+      </li>
+    </styled.li>
+  </ul>
+</Films>
+`;
